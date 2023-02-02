@@ -43,7 +43,7 @@ connect.query("INSERT INTO golegaltrademarktable SET ?",data, (err, result) =>{
         console.log(result);
         res.send(result)
     }
-})
+});
 
     
     
